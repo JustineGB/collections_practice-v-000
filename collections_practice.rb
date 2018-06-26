@@ -40,5 +40,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map.insert(-1, "s") { |word| " " }
+  array.insert(-1, "s") { |word| " " }
 end
