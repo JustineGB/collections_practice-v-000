@@ -31,10 +31,10 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each do |a, b| a[2] == $
+  array.each_with_index do |name, index|
+  new_array << name[[2]] == $
   end
-
-#$$$$$$$$
+  return new_array
 end
 
 def find_a(array)
