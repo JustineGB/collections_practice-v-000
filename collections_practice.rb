@@ -22,9 +22,7 @@ end
 def swap_elements(array)
   new_array = []
   array[0], array[2] = array[2], array[0]
-
     end
-end
 
 def reverse_array(array)
  array.reverse
