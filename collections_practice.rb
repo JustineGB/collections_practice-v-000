@@ -8,7 +8,7 @@ end
 #descending order
 def sort_array_desc(array)
   array.sort do |a, b|
-    a <=> begin
+    b <=> a
   end
 end
 
