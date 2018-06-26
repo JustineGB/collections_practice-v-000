@@ -33,7 +33,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find_all {|w| /^a/}
+  array.find_all {|w| /\Aa/}
 end
 
 def sum_array
