@@ -20,9 +20,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort do |a, b|
-    a[0] <=> b[2]
-end
+    a[0] = b[2]
 end
 
 def reverse_array(array)
