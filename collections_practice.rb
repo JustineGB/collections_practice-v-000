@@ -20,7 +20,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-    a[0] = b[2]
+  new_array = []
+  array[0], array[2] = array[2], array[0]
+
+    end
 end
 
 def reverse_array(array)
@@ -34,7 +37,8 @@ def find_a(array)
   array.find_all {|array| array =~ /\Aa/}
 end
 
-def sum_array
+def sum_array(array)
+  array.inject(0){|sum,x| sum + x }
 end
 
 def add_s(array)
