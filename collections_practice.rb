@@ -15,8 +15,7 @@ end
 #length of array sorted
 def sort_array_char_count(array)
   array.sort do |a, b|
-
-    a <=> b
+    a.lenght <=> b.length
   end
 end
 
@@ -27,7 +26,11 @@ def reverse_array(array)
  array.reverse
 end
 
-def kesha_maker(keshababy)
+def kesha_maker(array)
+  new_array = []
+  array.each do |k| k[2] == $
+  end
+
 #$$$$$$$$
 end
 
