@@ -20,6 +20,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  array.sort do |a, b|
+    a[0] <=> b[2]
+end
 end
 
 def reverse_array(array)
@@ -28,7 +31,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each do |k| k[2] == $
+  array.each do |a, b| a[2] == $
   end
 
 #$$$$$$$$
