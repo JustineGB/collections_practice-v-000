@@ -12,13 +12,22 @@ def sort_array_desc(array)
   end
 end
 
+#length of array sorted
 def sort_array_char_count(array)
+  array.sort do |a, b|
+
+    a <=> b
+  end
 end
 
 def swap_elements(array)
 end
 
 def reverse_array(array)
+  new_array == []
+  new_array << array.reverse
+end
+return new_array
 end
 
 def kesha_maker(keshababy)
