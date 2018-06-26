@@ -26,7 +26,6 @@ end
 def reverse_array(array)
   new_array == []
   new_array << array.reverse
-end
 return new_array
 end
 
